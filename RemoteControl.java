@@ -7,20 +7,55 @@ import edu.duke.FileResource;
  * This is starter code that may or may not work. You will need to update the code to
  * complete the project.
  */
-public class RemoteControl {
+import KivaCommand;
+
+public class RemoteControl extends RemoteControl{
+    
+     
     KeyboardResource keyboardResource;
 
-    /**
-     * Build a new RemoteControl.
-     */
-    
+
     
     public RemoteControl() {
+   
         
-        keyboardResource = new KeyboardResource();
+       keyboardResource = new KeyboardResource();   
        
         }
+        
+   public class KivaCommandTester {
     
+public void testForward() {
+   
+        KivaCommand command = KivaCommand.FORWARD();
+        System.out.println(command);
+        System.out.println(command.getDirectionKey());
+   }
+public void testTurnLeft() {
+        KivaCommand command = KivaCommand.TURN_LEFT();
+        System.out.println(command);
+        System.out.println(command.getDirectionKey());
+   }
+public void testTurnRight() {
+        KivaCommand command = KivaCommand.TURN_RIGHT();
+        System.out.println(command);
+        System.out.println(command.getDirectionKey());
+   }
+public void testTake() {
+        KivaCommand command = KivaCommand.TAKE();
+        System.out.println(command);
+        System.out.println(command.getDirectionKey());
+   }
+public void testDrop(){
+     KivaCommand command = KivaCommand.DROP();
+      System.out.println(command);
+        System.out.println(command.getDirectionKey());
+    }
+    
+  
+}
+    
+ 
 
     /**
      * The controller that directs Kiva's activity. Prompts the user for the floor map
@@ -32,8 +67,9 @@ public class RemoteControl {
     public void run() {
         
         System.out.println("Please select a map file.");
-        System.out.println("hugo");
-        FileResource fileResource = null;
+        
+        FileResource fileResource = new FileResource();
+ 
         String inputMap = fileResource.asString();
         FloorMap floorMap = new FloorMap(inputMap);
         System.out.println(floorMap);
@@ -41,6 +77,14 @@ public class RemoteControl {
         System.out.println("Please enter the directions for the Kiva Robot to take.");
         String directions = keyboardResource.getLine();
         System.out.println("Directions that you typed in: " + directions);
+        
+        
+        
+       
+        
     }
-
+       
 }
+
+
+
