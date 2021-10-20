@@ -11,9 +11,13 @@
 
  enum KivaCommand {
 
-    FORWARD, TURN_LEFT, TURN_RIGHT, TAKE, DROP
+    FORWARD("F"), TURN_LEFT("L"), TURN_RIGHT("R"), TAKE("T"), DROP("D");
 
+ public final String key;
 
+    private KivaCommand(String key) {
+        this.key = key;
+    }
 
 }
 

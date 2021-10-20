@@ -1,4 +1,11 @@
 #BlueJ class context
 comment0.target=Kiva
-comment0.text=\n\ Write\ a\ description\ of\ Kiva\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
-numComments=1
+comment1.params=
+comment1.target=Kiva()
+comment2.params=
+comment2.target=void\ getCurrentLocation()
+comment3.params=
+comment3.target=void\ isSuccessfullyDropped()
+comment4.params=
+comment4.target=void\ isCarryingPod()
+numComments=5

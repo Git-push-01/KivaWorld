@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.target=KivaCommand
 comment0.text=\n\ Write\ a\ description\ of\ KivaCommand\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
-numComments=1
+comment1.params=key
+comment1.target=KivaCommand(java.lang.String)
+numComments=2
