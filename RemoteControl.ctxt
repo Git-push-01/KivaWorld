@@ -5,5 +5,5 @@ comment1.params=
 comment1.target=RemoteControl()
 comment2.params=
 comment2.target=void\ run()
-comment2.text=\n\ The\ controller\ that\ directs\ Kiva's\ activity.\ Prompts\ the\ user\ for\ the\ floor\ map\n\ to\ load,\ displays\ the\ map,\ and\ asks\ the\ user\ for\ the\ commands\ for\ Kiva\ to\ execute.\n\n\ [Here's\ the\ method\ you'll\ execute\ from\ within\ BlueJ.\ It\ may\ or\ may\ not\ run\ successfully\n\ as-is,\ but\ you'll\ definitely\ need\ to\ add\ more\ to\ complete\ the\ project.]\n
+comment2.text=\ \ \n\ \n\n\ \ \ \ /**\n\ The\ controller\ that\ directs\ Kiva's\ activity.\ Prompts\ the\ user\ for\ the\ floor\ map\n\ to\ load,\ displays\ the\ map,\ and\ asks\ the\ user\ for\ the\ commands\ for\ Kiva\ to\ execute.\n\n\ [Here's\ the\ method\ you'll\ execute\ from\ within\ BlueJ.\ It\ may\ or\ may\ not\ run\ successfully\n\ as-is,\ but\ you'll\ definitely\ need\ to\ add\ more\ to\ complete\ the\ project.]\n
 numComments=3
