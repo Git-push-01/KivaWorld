@@ -9,15 +9,7 @@
 
 
  
- enum KivaCommand {
-     
-    FORWARD, TURN_LEFT, TURN_RIGHT, TAKE, DROP
-    
-      
-        
-       
-    
-}
+
  
     
     public class KivaCommandTester {

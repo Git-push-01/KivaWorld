@@ -7,16 +7,7 @@
  */
 public class Kiva {
 
-String defaultLayout = "" 
-                           + "-------------\n" 
-                           + "        P   *\n"
-                           + "   **       *\n"
-                           + "   **       *\n"
-                           + "  K       D *\n"
-                           + " * * * * * **\n"
-                           + "-------------\n";
 
-    FloorMap defaultMap = new FloorMap(defaultLayout);
 
-    Kiva kiva = new Kiva(defaultMap); 
+    Kiva kiva = new Kiva(); 
 }
